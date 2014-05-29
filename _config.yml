@@ -1,0 +1,4 @@
+source: .
+destination: ./_site
+
+exclude: ['CNAME','Gemfile','Gemfile.lock', 'README.md']
