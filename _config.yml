@@ -1,0 +1,4 @@
+#源目录
+source: ./_posts
+#目标目录
+destination: ./_site
