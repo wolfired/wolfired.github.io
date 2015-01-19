@@ -1,4 +1,47 @@
-#源目录
+#原稿目录:DIR
 source: ./_posts
-#目标目录
+
+#日记目录:DIR
 destination: ./_site
+
+#插件目录
+plugins: ./_plugins
+
+#布局目录
+layouts: ./_layouts
+
+#安全模式（禁用插件）:BOOL
+safe: false
+
+#转换时强制排除的文件、目录:[DIR, FILE, ...]
+#exclude:
+
+#转换时强制包含的文件、目录:[DIR, FILE, ...]
+#include:
+
+#时区:TIMEZONE
+#timezone:
+
+#文件编码:ENCODING
+#encoding:
+
+#用将来日期发布文章:BOOL
+#future:
+
+#生成索引:BOOL
+#lsi:
+
+#限制日记数量:NUM
+#limit_posts:
+
+#监听端口:PORT
+#port:
+
+#监听主机:HOST
+#host:
+
+#网站根路径:RUL
+#baseurl:
+
+#后台模式:BOOL
+#detach:
