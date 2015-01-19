@@ -45,3 +45,5 @@ safe: false
 
 #后台模式:BOOL
 #detach:
+
+pygments: true
