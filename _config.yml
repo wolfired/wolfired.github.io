@@ -1,5 +1,5 @@
 #原稿目录:DIR
-source: ./_posts
+source: .
 
 #日记目录:DIR
 destination: ./_site
@@ -23,7 +23,7 @@ safe: false
 #timezone:
 
 #文件编码:ENCODING
-#encoding:
+encoding: utf-8
 
 #用将来日期发布文章:BOOL
 #future:
@@ -46,6 +46,8 @@ safe: false
 #后台模式:BOOL
 #detach:
 
+highlighter: pygments
+
 user:
-	favicon: boo.icon
-	hightlight: default.css
+ favicon: boo.icon
+ hightlight: default.css
