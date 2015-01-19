@@ -45,3 +45,7 @@ safe: false
 
 #后台模式:BOOL
 #detach:
+
+user:
+	favicon: boo.icon
+	hightlight: default.css
