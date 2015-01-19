@@ -49,5 +49,5 @@ encoding: utf-8
 highlighter: pygments
 
 user:
- favicon: boo.icon
+ favicon: boo.ico
  hightlight: default.css
