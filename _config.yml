@@ -50,4 +50,4 @@ highlighter: pygments
 
 user:
  favicon: boo.ico
- hightlight: monokai.css
+ hightlight: pygments.css
