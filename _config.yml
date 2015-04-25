@@ -38,13 +38,13 @@ encoding: utf-8
 #port:
 
 #监听主机:HOST
-#host:
+host: 0.0.0.0
 
 #网站根路径:RUL
 #baseurl:
 
 #后台模式:BOOL
-#detach:
+detach: true
 
 highlighter: pygments
 
