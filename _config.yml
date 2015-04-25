@@ -44,7 +44,7 @@ host: 0.0.0.0
 #baseurl:
 
 #后台模式:BOOL
-detach: true
+#detach: true
 
 highlighter: pygments
 
