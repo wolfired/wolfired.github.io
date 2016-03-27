@@ -5,16 +5,16 @@ source: .
 destination: ./_site
 
 #插件目录
-plugins: ./_plugins
+plugins_dir: ./_plugins
 
 #布局目录
-layouts: ./_layouts
+layouts_dir: ./_layouts
 
 #安全模式（禁用插件）:BOOL
 safe: false
 
 #转换时强制排除的文件、目录:[DIR, FILE, ...]
-#exclude:
+exclude: ["./app/", "./node_modules/", "./typeings/"]
 
 #转换时强制包含的文件、目录:[DIR, FILE, ...]
 #include:
@@ -46,8 +46,8 @@ host: 0.0.0.0
 #后台模式:BOOL
 #detach: true
 
-highlighter: pygments
+highlighter: rouge
 
 user:
- favicon: boo.ico
- hightlight: pygments.css
+ favicon: /asset/ico/boo.ico
+ hightlight: /asset/css/pygments.css
