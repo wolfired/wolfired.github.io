@@ -1,15 +1,17 @@
-开发环境：
-Unity 5.3.4f1
-Visual Studio 2012
+>开发环境：
+
+>Unity 5.3.4f1
+
+>Visual Studio 2015
 
 
 >新建postbuild.bat：
 ```bat
 set TargetDir=%1
 set TargetName=%2
-set SolutoinDir=%3
+set SolutionDir=%3
 
-set OUTPUT=%SolutoinDir%Assets\Editor\Plugins
+set OUTPUT=%SolutionDir%\Plugins
 
 if not exist %OUTPUT% (
     echo %OUTPUT% is not exist
@@ -39,4 +41,6 @@ copy %TargetDir%%TargetName%.dll.mdb %OUTPUT%\
 
 >VS生成事件
 
-`$(ProjectDir)postbuild.bat $(TargetDir) $(TargetName) $(SolutoinDir)`
+`$(ProjectDir)postbuild.bat $(TargetDir) $(TargetName) $(SolutionDir)Assets`
+
+`$(ProjectDir)postbuild.bat $(TargetDir) $(TargetName) $(SolutionDir)Assets\Editor`
