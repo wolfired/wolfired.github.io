@@ -65,9 +65,9 @@ dns-nameservers 192.168.1.1
 ```
 
 ## Intel Graphics Driver(可选)
-[Intel Graphics Update Tool](https://01.org/zh/linuxgraphics/downloads/intel-graphics-update-tool-linux-os-v2.0.2 "INTEL GRAPHICS UPDATE TOOL FOR LINUX* OS V2.0.2")
+[Intel Graphics Update Tool](https://01.org/zh/linuxgraphics/downloads/intel-graphics-update-tool-linux-os-v2.0.2)
 
-[Running the Update Tool using gdebi](https://01.org/linuxgraphics/documentation/running-update-tool-using-gdebi "Due to a known issue with Ubuntu* 16.04")
+[Running the Update Tool using gdebi](https://01.org/linuxgraphics/documentation/running-update-tool-using-gdebi)
 
 自动更新显卡驱动相关软件包
 ```bash
@@ -78,3 +78,10 @@ sudo intel-graphics-update-tool
 ```bash
 sudo apt-get install packagekit
 ```
+
+## 思源字体(可选)
+[Source Han Sans](https://github.com/adobe-fonts/source-han-sans/tree/release)
+
+解压字体文件到`~/.fonts/`
+
+执行`sudo fc-cache -f -v`
