@@ -10,7 +10,7 @@ Ubuntu Server 16.04.1 LTS
 * 安装Ubuntu Server
 * 安装桌面环境
 ```bash
-sudo apt-get --no-install-recommends ubuntu-desktop gnome-terminal
+sudo apt-get install --no-install-recommends ubuntu-desktop gnome-terminal
 ```
 
 ## 连网(WiFi)
