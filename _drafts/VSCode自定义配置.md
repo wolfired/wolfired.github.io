@@ -1,9 +1,11 @@
+[TOC]
+
 ## Keyboard Shortcuts
 ```json
 [
 //参数提示
 { "key": "alt+/",               "command": "editor.action.triggerParameterHints",
-                                "when": "editorHasSignatureHelpProvider && editorTextFocus" },
+                                "when": "editorHasSignatureHelpProvider && editorTextFocus && !editorReadonly" },
 //成员提示
 { "key": "alt+.",               "command": "editor.action.triggerSuggest",
                                 "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
