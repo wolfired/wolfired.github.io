@@ -49,5 +49,5 @@ host: 0.0.0.0
 highlighter: rouge
 
 user:
- favicon: /asset/ico/boo.ico
- hightlight: /asset/css/pygments.css
+ favicon: /assets/site/ico/boo.ico
+ hightlight: /assets/site/css/pygments.css
