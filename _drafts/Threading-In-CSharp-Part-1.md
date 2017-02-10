@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 [TOC]
 
 # __[PART 1: GETTING STARTED](http://www.albahari.com/threading/)__
@@ -9,10 +13,11 @@ C#支持通过多线程并行执行代码, 一个线程就是一个独立的执�
 一个C# _client_ 程序(Console程序, WPF程序或Windows Forms程序)开始于一个由CLR和OS自动创建的线程(_main_ 线程), 通过创建附加线程实现多线程运行. 下面是一个简单例子:
 
 >本教程所有的例子都假设导入了以下命名空间
->```csharp
->using System;
->using System.Threading;
->```
+
+```csharp
+using System;
+using System.Threading;
+```
 
 ```csharp
 class ThreadTest
@@ -30,10 +35,9 @@ class ThreadTest
   {
     for (int i = 0; i < 1000; i++) Console.Write ("y");
   }
-}
 ```
-```
-#output
+
+```csharp
 xxxxxxxxxxxxxxxxyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyyyyyyyyyyyyy
 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyxxxxxxxxxxxxxxxxxxxxxx
@@ -299,7 +303,7 @@ new Thread (delegate()
 ```
 
 
-[NewThread.png]: ../assets/Threading_In_CSharp_Part_1/NewThread.png
+[NewThread.png]: /assets/Threading_In_CSharp_Part_1/NewThread.png
 [Locking]: ./Threading-In-CSharp-Part-2.md#Locking
 [Blocking]: ./Threading-In-CSharp-Part-2.md#Blocking
 [Thread Safety]: ./Threading-In-CSharp-Part-2.md#Thread+Safety

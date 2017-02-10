@@ -13,8 +13,15 @@ layouts_dir: ./_layouts
 #安全模式（禁用插件）:BOOL
 safe: false
 
+gems:
+  - github-pages
+  - jekyll-paginate
+
 #转换时强制排除的文件、目录:[DIR, FILE, ...]
-exclude: ["./app/", "./node_modules/", "./typeings/"]
+exclude:
+  - ./app/
+  - ./node_modules/
+  - ./typeings/
 
 #转换时强制包含的文件、目录:[DIR, FILE, ...]
 #include:
@@ -34,11 +41,11 @@ encoding: utf-8
 #限制日记数量:NUM
 #limit_posts:
 
-#监听端口:PORT
-#port:
-
 #监听主机:HOST
-host: 0.0.0.0
+#host: 127.0.0.1
+
+#监听端口:PORT
+#port: 4000
 
 #网站根路径:RUL
 #baseurl:
@@ -46,8 +53,32 @@ host: 0.0.0.0
 #后台模式:BOOL
 #detach: true
 
+title: Your awesome title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+twitter_username: jekyllrb
+github_username:  jekyll
+
+theme: minima
+
 highlighter: rouge
 
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
 user:
- favicon: /assets/site/ico/boo.ico
- hightlight: /assets/site/css/pygments.css
+ ico_favicon: /assets/site/ico/boo.ico
+ css_hightlight: /assets/site/css/rouge.css
+ css_custom: /assets/site/css/custom.css
