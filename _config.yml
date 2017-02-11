@@ -53,14 +53,14 @@ encoding: utf-8
 #后台模式:BOOL
 #detach: true
 
-title: Your awesome title
-email: your-email@domain.com
+title: Hyrule
+email: wolfired@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: wolfired
+github_username:  wolfired
 
 theme: minima
 
