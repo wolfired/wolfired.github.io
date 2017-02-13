@@ -3,6 +3,10 @@ code {
     border: 0px solid #e8e8e8;
     background-color: #272822; }
 
+code {
+    color: #ffffff
+}
+
 .highlighter-rouge
 .highlight {
     background: #272822; }

@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 [TOC]
 
 ## [特殊目录与脚本编译顺序][ScriptCompileOrderFolders]

@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 [TOC]
 
 ## 目的
@@ -9,41 +13,49 @@ Ubuntu Server 16.04.1 LTS
 ## 安装
 * 安装Ubuntu Server
 * 安装桌面环境
-```bash
+
+```shell
 sudo apt-get install --no-install-recommends ubuntu-desktop gnome-terminal
 ```
 
 ## 连网(WiFi)
 
 * 首先关闭NetworkManager服务
-```bash
+
+```shell
 sudo systemctl stop NetworkManager
 sudo systemctl disable NetworkManager
 ```
 
 * 查看无线网卡
-```bash
+
+```shell
 ifconfig -a
 ```
 假设无线网卡接口为：`wlan0`
 
 如有必要，先停止无线网卡
-```bash
+
+```shell
 sudo ifconfig wlan0 down
 ```
 
 * 手动连网
-```bash
+
+```shell
 wpa_passphrase ssid passwd > wpa_supplicant-wlan0.conf
 sudo wpa_supplicant -B -i wlan0 -c wpa_supplicant-wlan0.conf
 sudo dhclient wlan0
 ```
 
 * 自动连网
-```bash
+
+```shell
 sudo vi /etc/network/interfaces
 ```
+
 增加以下内容
+
 ```text
 #Dynamic IP
 auto wlan0
@@ -51,7 +63,9 @@ iface wlan0 inet dhcp
 wpa-ssid your_ssid
 wpa-psk your_passwd
 ```
+
 或
+
 ```text
 #Static IP
 auto wlan0
@@ -70,12 +84,14 @@ dns-nameservers 192.168.1.1
 [Running the Update Tool using gdebi](https://01.org/linuxgraphics/documentation/running-update-tool-using-gdebi)
 
 自动更新显卡驱动相关软件包
-```bash
+
+```shell
 sudo intel-graphics-update-tool
 ```
 
 如果运行时报错，可能是因为缺少packagekit软件包
-```bash
+
+```shell
 sudo apt-get install packagekit
 ```
 

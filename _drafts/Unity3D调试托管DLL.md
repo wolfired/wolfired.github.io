@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 >开发环境：
 
 >Unity 5.3.4f1
@@ -6,7 +10,8 @@
 
 
 >新建postbuild.bat：
-```bat
+
+```shell
 set TargetDir=%1
 set TargetName=%2
 set SolutionDir=%3

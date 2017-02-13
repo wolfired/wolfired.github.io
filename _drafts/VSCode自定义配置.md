@@ -1,6 +1,11 @@
+---
+layout: post
+---
+
 [TOC]
 
 ## Keyboard Shortcuts
+
 ```json
 [
 //参数提示
