@@ -11,3 +11,5 @@ layout: post
 ## Locking
 
 ## Thread Safety
+
+## Signaling with Event Wait Handles
