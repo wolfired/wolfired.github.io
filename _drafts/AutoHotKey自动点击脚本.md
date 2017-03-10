@@ -58,7 +58,7 @@ loop() {
     mark := 0
 
     CoordMode, Mouse, Client
-    While (is_running && (mark++ < tt || 0 = tt) && isWindowExist(title_game)) {
+    while (is_running && (mark++ < tt || 0 = tt) && isWindowExist(title_game)) {
         Click %mx%, %my%
         updateStatusBar_2(mark)
         Sleep, pd
@@ -104,7 +104,7 @@ help() {
     Gui, Add, Edit, w256 ys vtitle_game, %title_game%
     Gui, Add, Edit, w256 number vpd, %pd%
     Gui, Add, Edit, w256 number vtt, %tt%
-    Gui, Add, Text, w256, Ctrl + 0 启动脚本`nCtrl + 1 停止脚本`nCtrl +9 记录鼠标坐标
+    Gui, Add, Text, w256, Ctrl + 0 启动脚本`nCtrl + 1 停止脚本`nCtrl + 9 记录鼠标坐标
 
     Gui, Add, StatusBar
     SB_SetParts(64, 128)
@@ -146,6 +146,6 @@ updateStatusBar_1() {
 }
 
 updateStatusBar_2(str) {
-    SB_SetText("Loop" . str, 2)
+    SB_SetText("Loop:" . str, 2)
 }
 ```
