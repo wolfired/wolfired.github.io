@@ -1,4 +1,8 @@
-```ahk
+---
+layout: post
+---
+
+```
 title_game := "Adobe Flash Player 21"
 title_ahk := "Robot"
 
