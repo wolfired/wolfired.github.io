@@ -10,3 +10,6 @@ code {
 .highlighter-rouge
 .highlight {
     background: #272822; }
+
+.highlight * {
+    font-family: "CamingoCode";}

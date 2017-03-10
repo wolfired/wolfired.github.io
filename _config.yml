@@ -82,3 +82,7 @@ user:
  ico_favicon: /assets/site/ico/boo.ico
  css_hightlight: /assets/site/css/rouge.css
  css_custom: /assets/site/css/custom.css
+ font_camingo_code_regular: /assets/site/font/CamingoCodeRegular.ttf
+ font_camingo_code_bold: /assets/site/font/CamingoCodeBold.ttf
+ font_camingo_code_italic: /assets/site/font/CamingoCodeItalic.ttf
+ font_camingo_code_bold_italic: /assets/site/font/CamingoCodeBoldItalic.ttf
