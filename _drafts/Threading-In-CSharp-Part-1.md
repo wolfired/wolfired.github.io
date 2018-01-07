@@ -4,7 +4,7 @@ layout: post
 
 [TOC]
 
-__[PART 1: GETTING STARTED][Source Link]__ 
+__[PART 1: GETTING STARTED][Source Link]__
 ---
 
 # __Introduction and Concepts__
