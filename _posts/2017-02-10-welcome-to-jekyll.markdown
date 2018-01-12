@@ -24,7 +24,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 <script type="text/javascript">
   DiscourseEmbed = { discourseUrl: 'http://discourse.wolfired.com/',
-                     discourseEmbedUrl: 'REPLACE_ME' };
+                     discourseEmbedUrl: 'http://gh.wolfired.com/jekyll/update/2017/02/10/welcome-to-jekyll.html' };
 
   (function() {
     var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
