@@ -23,7 +23,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 <div id='discourse-comments'></div>
 
 <script type="text/javascript">
-  DiscourseEmbed = { discourseUrl: 'http://discourse.wolfired.com/',
+  DiscourseEmbed = { discourseUrl: 'http://vultr.wolfired.com/',
                      discourseEmbedUrl: 'http://gh.wolfired.com/jekyll/update/2017/02/10/welcome-to-jekyll.html' };
 
   (function() {
